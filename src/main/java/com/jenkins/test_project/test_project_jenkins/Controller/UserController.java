@@ -7,7 +7,7 @@ import org.springframework.web.bind.annotation.RestController;
 public class UserController {
 
 
-    @RequestMapping("/home")
+    @RequestMapping("/")
     public String home()
     {
         return "Spring boot application Working";
